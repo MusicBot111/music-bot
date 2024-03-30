@@ -155,7 +155,7 @@ module.exports = {
           .setAuthor({
             name: 'Album Created Sucessfully',
             iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1215554404527116288/7762-verified-blue.gif',
-            url: 'https://discord.gg/FUEHs7RCqz'
+            url: 'https://discord.gg/gmmfcDFbqw'
           })
   .setDescription(`Hey <@${interaction.member.id}>, your album has been created successfully! 🎉`)
   .setTimestamp();
