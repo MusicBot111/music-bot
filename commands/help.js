@@ -60,21 +60,18 @@ module.exports = {
        .setImage('https://media.tenor.com/T81rp0OHXMwAAAAd/sana-twice.gif')
       const button1 = new ButtonBuilder()
         .setLabel('YouTube')
-        .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+        .setURL('https://www.youtube.com/@PaoLUL_')
         .setStyle(ButtonStyle.Link);
 
       const button2 = new ButtonBuilder()
         .setLabel('Discord')
-        .setURL('https://discord.gg/FUEHs7RCqz')
+        .setURL('https://discord.gg/gmmfcDFbqw')
         .setStyle(ButtonStyle.Link);
 
-      const button3 = new ButtonBuilder()
-        .setLabel('Code')
-        .setURL('https://github.com/RTX-GAMINGG/RTX-MUSIC-BOT-v3.6')
-        .setStyle(ButtonStyle.Link);
+      
 
       const row = new ActionRowBuilder()
-        .addComponents(button1, button2, button3);
+        .addComponents(button1, button2);
 
       interaction.reply({
         embeds: [musicCommandsEmbed, basicCommandsEmbed],
