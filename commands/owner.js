@@ -32,9 +32,9 @@ module.exports = {
             .setAuthor({
           name: 'Owner',
           iconURL: 'https://cdn.discordapp.com/attachments/1156866389819281418/1157310253520662638/2443-iconperson.png?ex=651824aa&is=6516d32a&hm=0becc4a0fda01e5a02a63cf098db30c287e60a474f8d2da4ddeae7f47d98a5a3&',
-          url: 'https://discord.gg/FUEHs7RCqz'
+          url: 'https://discord.gg/gmmfcDFbqw'
         })
-            .setDescription(`__**About me**__:\n\n ▶️ Myself Jose Antonio Rivera aka ohscarivera.   I love playing games, watching anime Feel free to contact me!\n YouTube : ❤️ [HOSEE](${youtubeLink})\n Instagram : 💙 [HOSEE](${InstagramLink})`)
+            .setDescription(`__**About me**__:\n\n ▶️ Myself Jose Antonio Rivera aka ohscarivera. I love playing games, watching anime Feel free to contact me!\n YouTube : ❤️ [HOSEE](${youtubeLink})\n Instagram : 💙 [HOSEE](${InstagramLink})`)
             .setTimestamp();
       interaction.reply({ embeds: [embed] }).catch(e => {});
 
